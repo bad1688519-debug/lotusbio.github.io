@@ -7,9 +7,9 @@
       "_framework-CXnKph_e.js"
     ]
   },
-  "_dialog-CKe1ehWv.js": {
-    "file": "assets/dialog-CKe1ehWv.js",
-    "name": "dialog",
+  "_button-BDvLN2Rg.js": {
+    "file": "assets/button-BDvLN2Rg.js",
+    "name": "button",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "_Icon-C6gSHICf.js",
@@ -28,29 +28,29 @@
     "name": "rolldown-runtime"
   },
   "app/page.tsx": {
-    "file": "assets/page-SOZP31ms.js",
+    "file": "assets/page-D0fQFgVa.js",
     "name": "page",
     "src": "app/page.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_dialog-CKe1ehWv.js",
+      "_button-BDvLN2Rg.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "components/age-gate.tsx": {
-    "file": "assets/age-gate-DrP-bLyb.js",
+    "file": "assets/age-gate-DzwlH7sp.js",
     "name": "age-gate",
     "src": "components/age-gate.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_dialog-CKe1ehWv.js",
+      "_button-BDvLN2Rg.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-DqUUp_yX.js",
+    "file": "assets/layout-segment-context-covtQEjM.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -61,7 +61,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-Bx-e3Mxf.js",
+    "file": "assets/index-rg4ED83D.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
