@@ -3,3 +3,4 @@
 
 /* Keep the homepage supply card compact after removing its decorative logo. */
 .file-logo{display:none!important}.hero-file{min-height:0}.hero-file>p{margin-top:0}
+.age-gate-close{z-index:2;color:#302044;background:#fff;border:1px solid #d8d1df;border-radius:999px;width:34px;height:34px;line-height:28px;font-size:25px;position:absolute;top:12px;right:12px;cursor:pointer}.age-gate-close:hover{background:#f4f0f7}
