@@ -29,4 +29,3 @@ document.querySelector('#age-continue')?.addEventListener('click', () => {
 });
 document.querySelector('#age-leave')?.addEventListener('click', () => { location.href = 'https://www.google.com/'; });
 gate?.addEventListener('cancel', event => event.preventDefault());
-

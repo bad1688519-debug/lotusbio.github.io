@@ -12,4 +12,3 @@
  const copy=document.createElement('button');copy.type='button';copy.className='button';copy.textContent='Copy inquiry';copy.onclick=async()=>{try{await navigator.clipboard.writeText(message());document.querySelector('#quote-storage').textContent='Copied. Paste into an email to info@lotusbio.cn.';}catch{document.querySelector('#quote-storage').textContent='Please email info@lotusbio.cn manually.';}};send.after(copy);
  window.lotusQuoteMessage=message;
 })();
-
