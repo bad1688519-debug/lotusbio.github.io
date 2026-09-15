@@ -1,22 +1,28 @@
-document.querySelector('form')?.addEventListener('submit', function (event) {
-  event.preventDefault();
-  const data = new FormData(this);
-  const body = `Company / name: ${data.get('company')}\nEmail: ${data.get('email')}\n\nRequirements:\n${data.get('requirements')}`;
-  const subject = 'LotusBio wholesale inquiry';
-  let panel = document.querySelector('#email-fallback');
-  if (!panel) { panel = document.createElement('div'); panel.id = 'email-fallback'; this.append(panel); }
-  panel.innerHTML = '<strong>Sending your inquiry…</strong><p id="copy-status" role="status"></p>';
-  const payload = { subject, company: data.get('company'), email: data.get('email'), requirements: data.get('requirements'), _replyto: data.get('email') };
-  const submit=this.querySelector('[type="submit"]');submit.disabled=true;
-  window.sendLotusInquiry(payload)
-    .then(() => { panel.querySelector('strong').textContent = 'Your inquiry was accepted for delivery.'; panel.querySelector('#copy-status').textContent = 'Reply email: ' + data.get('email') + '.'; })
-    .catch(() => { panel.querySelector('strong').textContent = 'We could not confirm delivery.'; panel.querySelector('#copy-status').textContent = 'Your details remain in the form. Please contact info@lotusbio.cn or use WhatsApp.'; })
-    .finally(()=>{submit.disabled=false;});
-  panel.insertAdjacentHTML('beforeend', '<button type="button" class="button" id="copy-email">Copy inquiry</button>');
-  panel.querySelector('#copy-email').onclick = async () => {
-    try { await navigator.clipboard.writeText(body); panel.querySelector('#copy-status').textContent = 'Copied. Paste it into an email to info@lotusbio.cn.'; }
-    catch { panel.querySelector('#copy-status').textContent = 'Please copy the inquiry manually.'; }
-  };
+document.querySelectorAll('form[data-inquiry]').forEach(form => {
+  const params = new URLSearchParams(location.search);
+  if (form.elements.product && params.get('product')) form.elements.product.value = params.get('product');
+  if (form.elements.requirements && params.get('report')) form.elements.requirements.value = 'Please confirm the batch documentation associated with Janoshik report #' + params.get('report') + '.';
+  form.addEventListener('submit', async event => {
+    event.preventDefault();
+    if (!form.reportValidity()) return;
+    const data = new FormData(form);
+    const labels = {company:'Company / name',email:'Email',country:'Destination country',product:'Product / specification',quantity:'Estimated quantity',frequency:'Purchase frequency',whatsapp:'WhatsApp',requirements:'Requirements'};
+    const body = Object.entries(labels).filter(([key])=>data.has(key)).map(([key,label])=>label+': '+data.get(key)).join('\n');
+    const subject = 'LotusBio wholesale inquiry';
+    let panel = form.querySelector('#email-fallback');
+    if (!panel) {panel=document.createElement('div');panel.id='email-fallback';form.append(panel);}
+    panel.replaceChildren();
+    const status=document.createElement('p');status.setAttribute('role','status');status.textContent='Sending your inquiry…';panel.append(status);
+    const email=document.createElement('a');email.className='button';email.textContent='Open email draft';email.href='mailto:info@lotusbio.cn?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
+    const whatsapp=document.createElement('a');whatsapp.className='button';whatsapp.textContent='Open WhatsApp draft';whatsapp.href='https://wa.me/85292734987?text='+encodeURIComponent(body);whatsapp.target='_blank';whatsapp.rel='noopener';
+    const copy=document.createElement('button');copy.type='button';copy.className='button';copy.textContent='Copy inquiry';copy.onclick=async()=>{try{await navigator.clipboard.writeText(body);status.textContent='Copied. Paste into an email to info@lotusbio.cn.';}catch{status.textContent='Copy is unavailable. Use the email or WhatsApp draft, or copy the fields manually.';}};
+    panel.append(email,whatsapp,copy);
+    const submit=form.querySelector('[type="submit"]');submit.disabled=true;
+    const payload={subject,company:data.get('company'),email:data.get('email'),_replyto:data.get('email'),requirements:body};
+    try {await window.sendLotusInquiry(payload);status.textContent='Your inquiry was accepted for delivery. Reply email: '+data.get('email')+'.';}
+    catch {status.textContent='We could not confirm delivery. Your details remain in the form. Use an email or WhatsApp draft below.';}
+    finally {submit.disabled=false;}
+  });
 });
 
 // Native dialog keeps confirmation independent of any framework or hydration.
@@ -30,3 +36,4 @@ document.querySelector('#age-continue')?.addEventListener('click', () => {
 });
 document.querySelector('#age-leave')?.addEventListener('click', () => { location.href = 'https://www.google.com/'; });
 gate?.addEventListener('cancel', event => event.preventDefault());
+
