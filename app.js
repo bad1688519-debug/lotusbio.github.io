@@ -8,7 +8,7 @@ document.querySelectorAll('form[data-inquiry]').forEach(form => {
     const data = new FormData(form);
     const labels = {company:'Company / name',email:'Email',country:'Destination country',product:'Product / specification',quantity:'Estimated quantity',frequency:'Purchase frequency',whatsapp:'WhatsApp',requirements:'Requirements'};
     const body = Object.entries(labels).filter(([key])=>data.has(key)).map(([key,label])=>label+': '+data.get(key)).join('\n');
-    const subject = 'LotusBio wholesale inquiry';
+    const subject = data.get('request_type') === 'COA documentation request' ? 'LotusBio COA documentation request' : 'LotusBio wholesale inquiry';
     let panel = form.querySelector('#email-fallback');
     if (!panel) {panel=document.createElement('div');panel.id='email-fallback';form.append(panel);}
     panel.replaceChildren();
