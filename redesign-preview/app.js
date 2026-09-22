@@ -2,7 +2,7 @@ document.querySelector('form')?.addEventListener('submit', function (event) {
   event.preventDefault();
   const data = new FormData(this);
   const body = `Company / name: ${data.get('company')}\nEmail: ${data.get('email')}\n\nRequirements:\n${data.get('requirements')}`;
-  const subject = 'LotusBio wholesale inquiry';
+  const subject = data.get('request_type') === 'COA documentation request' ? 'LotusBio COA documentation request' : 'LotusBio wholesale inquiry';
   let panel = document.querySelector('#email-fallback');
   if (!panel) { panel = document.createElement('div'); panel.id = 'email-fallback'; this.append(panel); }
   panel.innerHTML = '<strong>Sending your inquiry…</strong><p id="copy-status" role="status"></p>';
