@@ -39,7 +39,7 @@ gate?.addEventListener('cancel', event => event.preventDefault());
 
 
 // Keep the browser tab icon aligned with the green product-box brand mark.
-const LOTUSBIO_FAVICON = '/assets/lotusbio-green-box-favicon.png';
+const LOTUSBIO_FAVICON = '/assets/favicon.png';
 (() => {
   let icon = document.querySelector('link[rel~="icon"]');
   if (!icon) {
