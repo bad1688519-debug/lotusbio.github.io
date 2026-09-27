@@ -1,0 +1,682 @@
+{
+  "master": "/assets/semaglutide-lotusbio-research-product.webp",
+  "master_sha256": "4ff8f2f4cacf362d166b80d4965ea9144f7392b8ab2ceedb97f78f1a1d8352ce",
+  "text_regions": [
+    [
+      56,
+      240,
+      280,
+      281
+    ],
+    [
+      407,
+      299,
+      490,
+      321
+    ],
+    [
+      426,
+      373,
+      468,
+      390
+    ]
+  ],
+  "products": [
+    {
+      "slug": "semaglutide",
+      "name": "Semaglutide",
+      "specifications": [
+        "10 mg",
+        "20 mg",
+        "30 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/semaglutide-lotusbio-research-product.webp",
+      "image": "/assets/unified/semaglutide.webp",
+      "box_font_size": 36.5,
+      "vial_font_size": 13.25,
+      "changed_pixels": 0,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "tirzepatide",
+      "name": "Tirzepatide",
+      "specifications": [
+        "5 mg",
+        "10 mg",
+        "15 mg",
+        "20 mg",
+        "30 mg",
+        "40 mg",
+        "50 mg",
+        "60 mg",
+        "80 mg",
+        "100 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/tirzepatide-lotusbio-research-product.webp",
+      "image": "/assets/unified/tirzepatide.webp",
+      "box_font_size": 36.75,
+      "vial_font_size": 14.75,
+      "changed_pixels": 10781,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "retatrutide",
+      "name": "Retatrutide",
+      "specifications": [
+        "5 mg",
+        "10 mg",
+        "15 mg",
+        "20 mg",
+        "30 mg",
+        "40 mg",
+        "50 mg",
+        "60 mg",
+        "100 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/retatrutide-lotusbio-research-product.webp",
+      "image": "/assets/unified/retatrutide.webp",
+      "box_font_size": 39.0,
+      "vial_font_size": 15.0,
+      "changed_pixels": 10781,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "cagrilintide",
+      "name": "Cagrilintide",
+      "specifications": [
+        "5 mg",
+        "10 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/cagrilintide-lotusbio-research-product.webp",
+      "image": "/assets/unified/cagrilintide.webp",
+      "box_font_size": 36.5,
+      "vial_font_size": 14.25,
+      "changed_pixels": 10781,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "aod9604",
+      "name": "AOD9604",
+      "specifications": [
+        "5 mg",
+        "10 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/aod9604-lotusbio-research-peptide.webp",
+      "image": "/assets/unified/aod9604.webp",
+      "box_font_size": 39.0,
+      "vial_font_size": 16.0,
+      "changed_pixels": 10779,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "5-amino-1mq",
+      "name": "5-AMINO-1MQ",
+      "specifications": [
+        "5 mg",
+        "10 mg",
+        "50 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/5-amino-1mq-lotusbio-research-peptide.webp",
+      "image": "/assets/unified/5-amino-1mq.webp",
+      "box_font_size": 32.75,
+      "vial_font_size": 11.5,
+      "changed_pixels": 10781,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "l-carnitine",
+      "name": "L-carnitine",
+      "specifications": [
+        "1200 mg"
+      ],
+      "image_specification": "1200 mg",
+      "original_image": "/assets/l-carnitine-lotusbio-research-peptide.webp",
+      "image": "/assets/unified/l-carnitine.webp",
+      "box_font_size": 39.0,
+      "vial_font_size": 15.5,
+      "changed_pixels": 11148,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "lemon-bottle",
+      "name": "Lemon Bottle",
+      "specifications": [
+        "10 ml"
+      ],
+      "image_specification": "10 ml",
+      "original_image": "/assets/lemon-bottle-lotusbio-research-peptide.webp",
+      "image": "/assets/unified/lemon-bottle.webp",
+      "box_font_size": 34.5,
+      "vial_font_size": 12.25,
+      "changed_pixels": 11095,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "lipo-c",
+      "name": "Lipo-c",
+      "specifications": [
+        "10 ml"
+      ],
+      "image_specification": "10 ml",
+      "original_image": "/assets/lipo-c-lotusbio-research-peptide.webp",
+      "image": "/assets/unified/lipo-c.webp",
+      "box_font_size": 36.75,
+      "vial_font_size": 16.0,
+      "changed_pixels": 11092,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "ipamorelin",
+      "name": "Ipamorelin",
+      "specifications": [
+        "5 mg",
+        "10 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/ipamorelin-lotusbio-research-peptide.webp",
+      "image": "/assets/unified/ipamorelin.webp",
+      "box_font_size": 36.75,
+      "vial_font_size": 15.5,
+      "changed_pixels": 10782,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "cjc-1295-with-dac",
+      "name": "CJC-1295 with DAC",
+      "specifications": [
+        "5 mg",
+        "10 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/cjc-1295-with-dac-lotusbio-research-peptide.webp",
+      "image": "/assets/unified/cjc-1295-with-dac.webp",
+      "box_font_size": 22.25,
+      "vial_font_size": 12.5,
+      "changed_pixels": 10788,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "cjc-1295-without-dac",
+      "name": "CJC-1295 without DAC",
+      "specifications": [
+        "5 mg",
+        "10 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/cjc-1295-without-dac-lotusbio-research-peptide.webp",
+      "image": "/assets/unified/cjc-1295-without-dac.webp",
+      "box_font_size": 22.25,
+      "vial_font_size": 12.5,
+      "changed_pixels": 10788,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "kisspeptin-10",
+      "name": "Kisspeptin-10",
+      "specifications": [
+        "5 mg",
+        "10 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/kisspeptin-10-lotusbio-research-peptide.webp",
+      "image": "/assets/unified/kisspeptin-10.webp",
+      "box_font_size": 33.75,
+      "vial_font_size": 12.0,
+      "changed_pixels": 10781,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "thymosin-alpha-1",
+      "name": "Thymosin alpha 1",
+      "specifications": [
+        "5 mg",
+        "10 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/thymosin-alpha-1-lotusbio-research-peptide.webp",
+      "image": "/assets/unified/thymosin-alpha-1.webp",
+      "box_font_size": 26.25,
+      "vial_font_size": 9.25,
+      "changed_pixels": 10782,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "kpv",
+      "name": "KPV",
+      "specifications": [
+        "5 mg",
+        "10 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/kpv-lotusbio-research-peptide.webp",
+      "image": "/assets/unified/kpv.webp",
+      "box_font_size": 39.0,
+      "vial_font_size": 16.0,
+      "changed_pixels": 10779,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "vip",
+      "name": "VIP",
+      "specifications": [
+        "5 mg",
+        "10 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/vip-lotusbio-research-peptide.webp",
+      "image": "/assets/unified/vip.webp",
+      "box_font_size": 39.0,
+      "vial_font_size": 16.0,
+      "changed_pixels": 10781,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "melanotan-i-ii",
+      "name": "Melanotan I / II",
+      "specifications": [
+        "10 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/melanotan-i-ii-lotusbio-research-peptide.webp",
+      "image": "/assets/unified/melanotan-i-ii.webp",
+      "box_font_size": 32.0,
+      "vial_font_size": 11.25,
+      "changed_pixels": 10782,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "adamax",
+      "name": "Adamax",
+      "specifications": [
+        "5 mg",
+        "10 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/adamax-lotusbio-research-peptide.webp",
+      "image": "/assets/unified/adamax.webp",
+      "box_font_size": 39.0,
+      "vial_font_size": 16.0,
+      "changed_pixels": 10779,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "bpc-157",
+      "name": "BPC-157",
+      "specifications": [
+        "5 mg",
+        "10 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/bpc-157-lotusbio-research-product.webp",
+      "image": "/assets/unified/bpc-157.webp",
+      "box_font_size": 39.0,
+      "vial_font_size": 16.0,
+      "changed_pixels": 10779,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "tb-500",
+      "name": "TB-500",
+      "specifications": [
+        "5 mg",
+        "10 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/tb-500-lotusbio-research-product.webp",
+      "image": "/assets/unified/tb-500.webp",
+      "box_font_size": 39.0,
+      "vial_font_size": 16.0,
+      "changed_pixels": 10781,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "ghk-cu",
+      "name": "GHK-Cu",
+      "specifications": [
+        "50 mg",
+        "100 mg"
+      ],
+      "image_specification": "50 mg",
+      "original_image": "/assets/ghk-cu-lotusbio-research-product.webp",
+      "image": "/assets/unified/ghk-cu.webp",
+      "box_font_size": 39.0,
+      "vial_font_size": 16.0,
+      "changed_pixels": 11113,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "ahk-cu",
+      "name": "AHK-CU",
+      "specifications": [
+        "50 mg",
+        "100 mg"
+      ],
+      "image_specification": "50 mg",
+      "original_image": "/assets/ahk-cu-lotusbio-research-peptide.webp",
+      "image": "/assets/unified/ahk-cu.webp",
+      "box_font_size": 39.0,
+      "vial_font_size": 16.0,
+      "changed_pixels": 11112,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "sermorelin",
+      "name": "Sermorelin",
+      "specifications": [
+        "5 mg",
+        "10 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/sermorelin-lotusbio-research-peptide.webp",
+      "image": "/assets/unified/sermorelin.webp",
+      "box_font_size": 39.0,
+      "vial_font_size": 15.0,
+      "changed_pixels": 10782,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "tesamorelin",
+      "name": "Tesamorelin",
+      "specifications": [
+        "5 mg",
+        "10 mg",
+        "20 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/tesamorelin-lotusbio-research-peptide.webp",
+      "image": "/assets/unified/tesamorelin.webp",
+      "box_font_size": 38.0,
+      "vial_font_size": 13.5,
+      "changed_pixels": 10779,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "igf-1-lr3",
+      "name": "IGF-1 LR3",
+      "specifications": [
+        "1 mg"
+      ],
+      "image_specification": "1 mg",
+      "original_image": "/assets/igf-1-lr3-lotusbio-research-peptide.webp",
+      "image": "/assets/unified/igf-1-lr3.webp",
+      "box_font_size": 39.0,
+      "vial_font_size": 16.0,
+      "changed_pixels": 11094,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "epithalon",
+      "name": "Epithalon",
+      "specifications": [
+        "10 mg",
+        "50 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/epithalon-lotusbio-research-peptide.webp",
+      "image": "/assets/unified/epithalon.webp",
+      "box_font_size": 36.75,
+      "vial_font_size": 16.0,
+      "changed_pixels": 10780,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "foxo4-dri",
+      "name": "FOXO4-DRI / FOXO4",
+      "specifications": [
+        "10 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/foxo4-dri-lotusbio-research-peptide.webp",
+      "image": "/assets/unified/foxo4-dri.webp",
+      "box_font_size": 23.25,
+      "vial_font_size": 8.25,
+      "changed_pixels": 10782,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "snap-8",
+      "name": "Snap-8",
+      "specifications": [
+        "10 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/snap-8-lotusbio-research-peptide.svg",
+      "image": "/assets/unified/snap-8.webp",
+      "box_font_size": 36.25,
+      "vial_font_size": 16.0,
+      "changed_pixels": 10780,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "ss-31",
+      "name": "SS-31",
+      "specifications": [
+        "10 mg",
+        "50 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/ss-31-lotusbio-research-product.webp",
+      "image": "/assets/unified/ss-31.webp",
+      "box_font_size": 39.0,
+      "vial_font_size": 16.0,
+      "changed_pixels": 10780,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "glutathione",
+      "name": "Glutathione",
+      "specifications": [
+        "600 mg",
+        "1500 mg"
+      ],
+      "image_specification": "600 mg",
+      "original_image": "/assets/glutathione-lotusbio-research-peptide.svg",
+      "image": "/assets/unified/glutathione.webp",
+      "box_font_size": 39.0,
+      "vial_font_size": 14.0,
+      "changed_pixels": 11178,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "nad-plus",
+      "name": "NAD+",
+      "specifications": [
+        "100 mg",
+        "500 mg",
+        "1000 mg"
+      ],
+      "image_specification": "100 mg",
+      "original_image": "/assets/nad-plus-lotusbio-research-product.webp",
+      "image": "/assets/unified/nad-plus.webp",
+      "box_font_size": 39.0,
+      "vial_font_size": 16.0,
+      "changed_pixels": 11156,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "glow",
+      "name": "GLOW",
+      "specifications": [
+        "70 mg"
+      ],
+      "image_specification": "70 mg",
+      "original_image": "/assets/glow-lotusbio-research-peptide.svg",
+      "image": "/assets/unified/glow.webp",
+      "box_font_size": 39.0,
+      "vial_font_size": 16.0,
+      "changed_pixels": 11110,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "klow",
+      "name": "KLOW",
+      "specifications": [
+        "80 mg"
+      ],
+      "image_specification": "80 mg",
+      "original_image": "/assets/klow-lotusbio-research-peptide.svg",
+      "image": "/assets/unified/klow.webp",
+      "box_font_size": 39.0,
+      "vial_font_size": 16.0,
+      "changed_pixels": 11116,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "dsip",
+      "name": "DSIP",
+      "specifications": [
+        "5 mg",
+        "10 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/dsip-lotusbio-research-peptide.svg",
+      "image": "/assets/unified/dsip.webp",
+      "box_font_size": 39.0,
+      "vial_font_size": 16.0,
+      "changed_pixels": 10779,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "selank",
+      "name": "Selank",
+      "specifications": [
+        "5 mg",
+        "10 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/selank-lotusbio-research-peptide.svg",
+      "image": "/assets/unified/selank.webp",
+      "box_font_size": 39.0,
+      "vial_font_size": 16.0,
+      "changed_pixels": 10778,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "semax",
+      "name": "Semax",
+      "specifications": [
+        "5 mg",
+        "10 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/semax-lotusbio-research-peptide.svg",
+      "image": "/assets/unified/semax.webp",
+      "box_font_size": 39.0,
+      "vial_font_size": 16.0,
+      "changed_pixels": 10778,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "bpc-157-tb-500",
+      "name": "BPC-157 + TB-500",
+      "specifications": [
+        "10 mg",
+        "20 mg",
+        "30 mg",
+        "40 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/bpc-157-tb-500-lotusbio-research-peptide.svg",
+      "image": "/assets/unified/bpc-157-tb-500.webp",
+      "box_font_size": 22.25,
+      "vial_font_size": 12.5,
+      "changed_pixels": 10785,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "semax-selank",
+      "name": "Semax + Selank",
+      "specifications": [
+        "20 mg"
+      ],
+      "image_specification": "20 mg",
+      "original_image": "/assets/semax-selank-lotusbio-research-peptide.svg",
+      "image": "/assets/unified/semax-selank.webp",
+      "box_font_size": 22.25,
+      "vial_font_size": 12.5,
+      "changed_pixels": 11122,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "cjc-1295-ipamorelin",
+      "name": "CJC-1295 + Ipamorelin",
+      "specifications": [
+        "10 mg",
+        "20 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/cjc-1295-ipamorelin-lotusbio-research-product.webp",
+      "image": "/assets/unified/cjc-1295-ipamorelin.webp",
+      "box_font_size": 19.5,
+      "vial_font_size": 11.0,
+      "changed_pixels": 10786,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "retatrutide-tirzepatide",
+      "name": "Retatrutide + Tirzepatide",
+      "specifications": [
+        "60 mg"
+      ],
+      "image_specification": "60 mg",
+      "original_image": "/assets/retatrutide-tirzepatide-lotusbio-research-peptide.svg",
+      "image": "/assets/unified/retatrutide-tirzepatide.webp",
+      "box_font_size": 20.0,
+      "vial_font_size": 11.0,
+      "changed_pixels": 11123,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "tesamorelin-ipamorelin",
+      "name": "Tesamorelin + Ipamorelin",
+      "specifications": [
+        "15 mg"
+      ],
+      "image_specification": "15 mg",
+      "original_image": "/assets/tesamorelin-ipamorelin-lotusbio-research-peptide.svg",
+      "image": "/assets/unified/tesamorelin-ipamorelin.webp",
+      "box_font_size": 20.0,
+      "vial_font_size": 11.0,
+      "changed_pixels": 11117,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "bacteriostatic-water",
+      "name": "Bacteriostatic Water",
+      "specifications": [
+        "3 ml",
+        "10 ml"
+      ],
+      "image_specification": "3 ml",
+      "original_image": "/assets/bacteriostatic-water-lotusbio-research-product.webp",
+      "image": "/assets/unified/bacteriostatic-water.webp",
+      "box_font_size": 22.75,
+      "vial_font_size": 11.75,
+      "changed_pixels": 11100,
+      "outside_text_regions_changed_pixels": 0
+    },
+    {
+      "slug": "mots-c",
+      "name": "MOTS-c",
+      "specifications": [
+        "10 mg",
+        "15 mg",
+        "20 mg",
+        "40 mg"
+      ],
+      "image_specification": "10 mg",
+      "original_image": "/assets/mots-c-lotusbio-research-product.webp",
+      "image": "/assets/unified/mots-c.webp",
+      "box_font_size": 39.0,
+      "vial_font_size": 16.0,
+      "changed_pixels": 10781,
+      "outside_text_regions_changed_pixels": 0
+    }
+  ]
+}
