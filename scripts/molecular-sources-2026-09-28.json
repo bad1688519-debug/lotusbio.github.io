@@ -1,0 +1,191 @@
+{
+  "retatrutide": {
+    "CID": 171390338,
+    "MolecularFormula": "C221H342N46O68",
+    "MolecularWeight": "4731",
+    "Title": "Triple G",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/171390338",
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/171390338/PNG?image_size=1200x900",
+    "checked": "2026-09-28"
+  },
+  "tirzepatide": {
+    "CID": 156588324,
+    "MolecularFormula": "C225H348N48O68",
+    "MolecularWeight": "4813",
+    "Title": "Tirzepatide",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/156588324",
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/156588324/PNG?image_size=1200x900",
+    "checked": "2026-09-28"
+  },
+  "mots-c": {
+    "CID": 146675088,
+    "MolecularFormula": "C101H152N28O22S2",
+    "MolecularWeight": "2174.6",
+    "Title": "Mots-c",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/146675088",
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/146675088/PNG?image_size=1200x900",
+    "checked": "2026-09-28"
+  },
+  "ipamorelin": {
+    "CID": 9831659,
+    "MolecularFormula": "C38H49N9O5",
+    "MolecularWeight": "711.9",
+    "Title": "Ipamorelin",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/9831659",
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9831659/PNG?image_size=1200x900",
+    "checked": "2026-09-28"
+  },
+  "selank": {
+    "CID": 11765600,
+    "MolecularFormula": "C33H57N11O9",
+    "MolecularWeight": "751.9",
+    "Title": "Selank",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/11765600",
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11765600/PNG?image_size=1200x900",
+    "checked": "2026-09-28"
+  },
+  "semax": {
+    "CID": 9811102,
+    "MolecularFormula": "C37H51N9O10S",
+    "MolecularWeight": "813.9",
+    "Title": "ACTH (4-7), Pro-Gly-Pro-",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/9811102",
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9811102/PNG?image_size=1200x900",
+    "checked": "2026-09-28"
+  },
+  "epithalon": {
+    "CID": 219042,
+    "MolecularFormula": "C14H22N4O9",
+    "MolecularWeight": "390.35",
+    "Title": "Epitalon",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/219042",
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/219042/PNG?image_size=1200x900",
+    "checked": "2026-09-28"
+  },
+  "dsip": {
+    "CID": 68816,
+    "MolecularFormula": "C35H48N10O15",
+    "MolecularWeight": "848.8",
+    "Title": "Delta Sleep-Inducing Peptide",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/68816",
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/68816/PNG?image_size=1200x900",
+    "checked": "2026-09-28"
+  },
+  "ss-31": {
+    "CID": 11764719,
+    "MolecularFormula": "C32H49N9O5",
+    "MolecularWeight": "639.8",
+    "Title": "Elamipretide",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/11764719",
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11764719/PNG?image_size=1200x900",
+    "checked": "2026-09-28"
+  },
+  "tesamorelin": {
+    "CID": 16137828,
+    "MolecularFormula": "C221H366N72O67S",
+    "MolecularWeight": "5136",
+    "Title": "Tesamorelin",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/16137828",
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/16137828/PNG?image_size=1200x900",
+    "checked": "2026-09-28"
+  },
+  "sermorelin": {
+    "CID": 16132413,
+    "MolecularFormula": "C149H246N44O42S",
+    "MolecularWeight": "3357.9",
+    "Title": "Sermorelin",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/16132413",
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/16132413/PNG?image_size=1200x900",
+    "checked": "2026-09-28"
+  },
+  "thymosin-alpha-1": {
+    "CID": 16130571,
+    "MolecularFormula": "C129H215N33O55",
+    "MolecularWeight": "3108.3",
+    "Title": "Thymalfasin",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/16130571",
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/16130571/PNG?image_size=1200x900",
+    "checked": "2026-09-28"
+  },
+  "kisspeptin-10": {
+    "CID": 25240297,
+    "MolecularFormula": "C63H83N17O14",
+    "MolecularWeight": "1302.4",
+    "Title": "Kisspeptin-10",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/25240297",
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/25240297/PNG?image_size=1200x900",
+    "checked": "2026-09-28"
+  },
+  "glutathione": {
+    "CID": 124886,
+    "MolecularFormula": "C10H17N3O6S",
+    "MolecularWeight": "307.33",
+    "Title": "Glutathione",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/124886",
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/124886/PNG?image_size=1200x900",
+    "checked": "2026-09-28"
+  },
+  "l-carnitine": {
+    "CID": 10917,
+    "MolecularFormula": "C7H15NO3",
+    "MolecularWeight": "161.20",
+    "Title": "(-)-Carnitine",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/10917",
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/10917/PNG?image_size=1200x900",
+    "checked": "2026-09-28"
+  },
+  "aod9604": {
+    "CID": 71300630,
+    "MolecularFormula": "C78H123N23O23S2",
+    "MolecularWeight": "1815.1",
+    "Title": "Aod-9604",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/71300630",
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/71300630/PNG?image_size=1200x900",
+    "checked": "2026-09-28"
+  },
+  "cagrilintide": {
+    "CID": 171397054,
+    "MolecularFormula": "C194H312N54O59S2",
+    "MolecularWeight": "4409",
+    "Title": "Cagrilintide",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/171397054",
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/171397054/PNG?image_size=1200x900",
+    "checked": "2026-09-28"
+  },
+  "melanotan-i": {
+    "CID": 16197727,
+    "MolecularFormula": "C78H111N21O19",
+    "MolecularWeight": "1646.8",
+    "Title": "Afamelanotide",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/16197727",
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/16197727/PNG?image_size=1200x900",
+    "checked": "2026-09-28"
+  },
+  "melanotan-ii": {
+    "CID": 92432,
+    "MolecularFormula": "C50H69N15O9",
+    "MolecularWeight": "1024.2",
+    "Title": "melanotan-II",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/92432",
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/92432/PNG?image_size=1200x900",
+    "checked": "2026-09-28"
+  },
+  "vip": {
+    "CID": 16132300,
+    "MolecularFormula": "C147H237N43O43S",
+    "MolecularWeight": "3326.8",
+    "Title": "Aviptadil",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/16132300",
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/16132300/PNG?image_size=1200x900",
+    "checked": "2026-09-28"
+  },
+  "5-amino-1mq": {
+    "CID": 950107,
+    "MolecularFormula": "C10H11N2+",
+    "MolecularWeight": "159.21",
+    "Title": "5-Amino-1-methylquinolinium",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/950107",
+    "image_source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/950107/PNG?image_size=1200x900",
+    "checked": "2026-09-28"
+  }
+}
