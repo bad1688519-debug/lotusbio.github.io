@@ -50,3 +50,13 @@ const LOTUSBIO_FAVICON = '/assets/lotusbio-green-box-favicon.png';
   icon.type = 'image/png';
   icon.href = LOTUSBIO_FAVICON;
 })();
+
+// Use the transparent high-resolution LotusBio logo across shared site chrome.
+const LOTUSBIO_SITE_LOGO = '/assets/logo.png';
+(() => {
+  document.querySelectorAll('img[src="/assets/logo.jpg"]').forEach((img) => {
+    img.src = LOTUSBIO_SITE_LOGO;
+    img.removeAttribute('width');
+    img.removeAttribute('height');
+  });
+})();
