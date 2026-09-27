@@ -37,3 +37,16 @@ document.querySelector('#age-continue')?.addEventListener('click', () => {
 document.querySelector('#age-leave')?.addEventListener('click', () => { location.href = 'https://www.google.com/'; });
 gate?.addEventListener('cancel', event => event.preventDefault());
 
+
+// Keep the browser tab icon aligned with the green product-box brand mark.
+const LOTUSBIO_FAVICON = '/assets/lotusbio-green-box-favicon.png';
+(() => {
+  let icon = document.querySelector('link[rel~="icon"]');
+  if (!icon) {
+    icon = document.createElement('link');
+    icon.rel = 'icon';
+    document.head.append(icon);
+  }
+  icon.type = 'image/png';
+  icon.href = LOTUSBIO_FAVICON;
+})();
