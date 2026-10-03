@@ -56,7 +56,7 @@ const LOTUSBIO_SITE_LOGO = '/assets/logo.png';
 (() => {
   document.querySelectorAll('img[src="/assets/logo.jpg"]').forEach((img) => {
     img.src = LOTUSBIO_SITE_LOGO;
-    img.removeAttribute('width');
-    img.removeAttribute('height');
+    img.width = 1600;
+    img.height = 486;
   });
 })();
