@@ -130,8 +130,4 @@ const LOTUSBIO_SITE_LOGO = '/assets/logo.png';
     return section;
   }
   document.querySelectorAll('a.contact[href="https://wa.me/85292734987"]').forEach(primary => primary.replaceWith(createContacts()));
-  document.querySelectorAll('.site-footer').forEach(footer => {
-    footer.querySelectorAll('a[href="https://wa.me/85292734987"]').forEach(link => link.remove());
-    footer.append(createContacts());
-  });
 })();
