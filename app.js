@@ -60,3 +60,19 @@ const LOTUSBIO_SITE_LOGO = '/assets/logo.png';
     img.height = 486;
   });
 })();
+
+// Add the backup support contact beside the existing WhatsApp contact.
+(() => {
+  const backupUrl = 'https://wa.me/85265581902';
+  document.querySelectorAll('.site-footer a[href="https://wa.me/85292734987"], a.contact[href="https://wa.me/85292734987"]').forEach((primary) => {
+    if (primary.parentElement.querySelector('[data-whatsapp-backup]')) return;
+    const backup = document.createElement('a');
+    backup.href = backupUrl;
+    backup.target = '_blank';
+    backup.rel = 'noopener noreferrer';
+    backup.dataset.whatsappBackup = '';
+    backup.className = primary.className;
+    backup.append('WhatsApp Backup Support', document.createElement('br'), '+852 6558 1902 ↗');
+    primary.after(backup);
+  });
+})();
