@@ -13,9 +13,9 @@ document.querySelectorAll('form[data-inquiry]').forEach(form => {
     event.preventDefault();
     if (!form.reportValidity()) return;
     const data = new FormData(form);
-    const labels = {company:'Company / name',email:'Email',country:'Destination country',product:'Product / specification',quantity:'Estimated quantity',frequency:'Purchase frequency',whatsapp:'WhatsApp',requirements:'Requirements',source_page:'Source page'};
+    const labels = {company:'Company / name',email:'Email',country:'Destination country',product:'Product / specification',quantity:'Estimated quantity',frequency:'Purchase frequency',whatsapp:'WhatsApp',requirements:'Requirements',source_page:'Source page',request_type:'Request type',sequence:'Sequence / project summary',purity:'Target purity',modifications:'Modification requirements',timeline:'Preferred timing'};
     const body = Object.entries(labels).filter(([key])=>data.has(key)).map(([key,label])=>label+': '+data.get(key)).join('\n');
-    const subject = data.get('request_type') === 'COA documentation request' ? 'LotusBio COA documentation request' : 'LotusBio wholesale inquiry';
+    const subject = data.get('request_type') === 'COA documentation request' ? 'LotusBio COA documentation request' : data.get('request_type') === 'Custom peptide synthesis' ? 'LotusBio custom peptide synthesis inquiry' : 'LotusBio wholesale inquiry';
     let panel = form.querySelector('#email-fallback');
     if (!panel) {panel=document.createElement('div');panel.id='email-fallback';form.append(panel);}
     panel.replaceChildren();

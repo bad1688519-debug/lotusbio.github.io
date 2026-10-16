@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://lbiopeptides.com/</loc><lastmod>2026-10-11</lastmod></url>
+  <url><loc>https://lbiopeptides.com/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://lbiopeptides.com/about/</loc><lastmod>2026-10-04</lastmod></url>
   <url><loc>https://lbiopeptides.com/factory/</loc><lastmod>2026-10-15</lastmod></url>
   <url><loc>https://lbiopeptides.com/coas/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://lbiopeptides.com/custom-packaging-boxes/</loc><lastmod>2026-09-26</lastmod></url>
-  <url><loc>https://lbiopeptides.com/guides/</loc><lastmod>2026-10-03</lastmod></url>
+  <url><loc>https://lbiopeptides.com/guides/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://lbiopeptides.com/guides/coa-verification-guide/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://lbiopeptides.com/guides/wholesale-peptide-supplier-checklist/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://lbiopeptides.com/guides/peptide-wholesale-china/</loc><lastmod>2026-10-03</lastmod></url>
@@ -14,7 +14,7 @@
   <url><loc>https://lbiopeptides.com/guides/third-party-peptide-testing-guide/</loc><lastmod>2026-10-03</lastmod></url>
   <url><loc>https://lbiopeptides.com/guides/peptide-shipping-guide/</loc><lastmod>2026-10-03</lastmod></url>
   <url><loc>https://lbiopeptides.com/guides/peptide-storage-guide/</loc><lastmod>2026-10-03</lastmod></url>
-  <url><loc>https://lbiopeptides.com/private-label-peptides/</loc><lastmod>2026-09-26</lastmod></url>
+  <url><loc>https://lbiopeptides.com/private-label-peptides/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://lbiopeptides.com/products/5-amino-1mq/</loc><lastmod>2026-09-28</lastmod></url>
   <url><loc>https://lbiopeptides.com/products/adamax/</loc><lastmod>2026-09-28</lastmod></url>
   <url><loc>https://lbiopeptides.com/products/ahk-cu/</loc><lastmod>2026-09-28</lastmod></url>
@@ -58,7 +58,7 @@
   <url><loc>https://lbiopeptides.com/products/thymosin-alpha-1/</loc><lastmod>2026-09-28</lastmod></url>
   <url><loc>https://lbiopeptides.com/products/tirzepatide/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://lbiopeptides.com/products/vip/</loc><lastmod>2026-09-28</lastmod></url>
-  <url><loc>https://lbiopeptides.com/raw-materials/</loc><lastmod>2026-10-15</lastmod></url>
+  <url><loc>https://lbiopeptides.com/raw-materials/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://lbiopeptides.com/raw-materials/liraglutide-api/</loc><lastmod>2026-09-26</lastmod></url>
   <url><loc>https://lbiopeptides.com/third-party-tested-peptides/</loc><lastmod>2026-10-03</lastmod></url>
   <url><loc>https://lbiopeptides.com/wholesale-peptides/</loc><lastmod>2026-10-11</lastmod></url>
@@ -81,5 +81,6 @@
   <url><loc>https://lbiopeptides.com/raw-materials/cjc-1295-raw-material/</loc><lastmod>2026-09-28</lastmod></url>
   <url><loc>https://lbiopeptides.com/quality/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://lbiopeptides.com/raw-material-laboratory/</loc><lastmod>2026-10-15</lastmod></url>
+  <url><loc>https://lbiopeptides.com/custom-peptide-synthesis/</loc><lastmod>2026-10-16</lastmod></url>
 </urlset>
 
