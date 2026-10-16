@@ -1,12 +1,19 @@
 document.querySelectorAll('form[data-inquiry]').forEach(form => {
   const params = new URLSearchParams(location.search);
   if (form.elements.product && params.get('product')) form.elements.product.value = params.get('product');
+  // Preserve the raw-material page context without accepting an external source URL.
+  const sourcePath = params.get('source') || '';
+  if (location.pathname === '/wholesale/' && /^\/raw-materials\/(?:[a-z0-9-]+\/)?$/.test(sourcePath)) {
+    const source = document.createElement('input');
+    source.type = 'hidden'; source.name = 'source_page'; source.value = sourcePath;
+    form.append(source);
+  }
   if (form.elements.requirements && params.get('report')) form.elements.requirements.value = 'Please confirm the batch documentation associated with Janoshik report #' + params.get('report') + '.';
   form.addEventListener('submit', async event => {
     event.preventDefault();
     if (!form.reportValidity()) return;
     const data = new FormData(form);
-    const labels = {company:'Company / name',email:'Email',country:'Destination country',product:'Product / specification',quantity:'Estimated quantity',frequency:'Purchase frequency',whatsapp:'WhatsApp',requirements:'Requirements'};
+    const labels = {company:'Company / name',email:'Email',country:'Destination country',product:'Product / specification',quantity:'Estimated quantity',frequency:'Purchase frequency',whatsapp:'WhatsApp',requirements:'Requirements',source_page:'Source page'};
     const body = Object.entries(labels).filter(([key])=>data.has(key)).map(([key,label])=>label+': '+data.get(key)).join('\n');
     const subject = data.get('request_type') === 'COA documentation request' ? 'LotusBio COA documentation request' : 'LotusBio wholesale inquiry';
     let panel = form.querySelector('#email-fallback');
