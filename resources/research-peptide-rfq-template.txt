@@ -1,0 +1,71 @@
+LOTUSBIO — RESEARCH PROCUREMENT RFQ WORKSHEET
+Version: 2026-10-17
+Use one line or section per material and supply format.
+This worksheet requests a quotation; it does not place an order.
+
+1. BUYER AND DESTINATION
+Company / research organization:
+Work email:
+Destination country and state / region:
+Receiving / delivery requirements:
+
+2. CHOOSE THE PROJECT TYPE
+[ ] Bulk raw material
+[ ] Catalog research vials
+[ ] Custom sequence synthesis
+[ ] Private-label / outer packaging
+If more than one applies, describe each scope separately.
+
+3. MATERIAL AND QUANTITY
+Material name / identity requirement:
+Catalog code, if applicable:
+Bulk material: total requested mass in mg/g/kg:
+Preferred container size / number of containers:
+Vials: strength, vials per box and number of boxes:
+Repeat-order forecast, if relevant:
+
+4. TARGET SPECIFICATION AND DOCUMENTATION
+Requested identity test / acceptance requirement:
+Requested purity method and target:
+Separate peptide-content / assay requirement, if any:
+Requested batch COA and supporting analytical documents:
+Does a reference report apply to the proposed supply batch? Ask the supplier to confirm.
+Open questions / missing documents:
+
+5. CUSTOM SYNTHESIS, IF APPLICABLE
+Non-confidential project overview:
+Sequence details: discuss an appropriate sharing process if confidential.
+Requested terminal groups / modifications:
+Target total quantity and purity:
+Requested analytical documentation / delivery format:
+Targets are project inputs, not confirmed supplier capability.
+
+6. PACKAGING, IF APPLICABLE
+Product / material to package:
+Label, vial, outer-box or other presentation requirements:
+Artwork available? What requires review?
+Requested quantity and approval process:
+
+7. TIMING AND COMMERCIAL RESPONSE
+Preferred date (request only):
+Ask supplier to confirm separately:
+- Availability and proposed batch
+- MOQ and quantity / packaging basis
+- Price basis, quotation validity and payment terms
+- Preparation / production time
+- Dispatch origin, carrier / service, transit estimate and shipping cost
+- Responsibility for destination documentation and handling delivery issues
+
+8. KEEP WITH THE FINAL QUOTATION
+Agreed material, specification and quantity:
+Proposed batch reference and corresponding documents:
+Confirmed packaging and destination:
+Confirmed commercial terms and timing:
+Unresolved questions:
+
+Do not include confidential sequences or documents in an initial web inquiry.
+Bulk material: https://lbiopeptides.com/raw-materials/
+Catalog vials: https://lbiopeptides.com/wholesale-peptides/
+Sequence synthesis: https://lbiopeptides.com/custom-peptide-synthesis/
+Packaging: https://lbiopeptides.com/private-label-peptides/
+Batch-document request: https://lbiopeptides.com/coas/#request-coa
