@@ -1,0 +1,63 @@
+{
+  "janoshik": [
+    {
+      "source": "Janoshik Analytical",
+      "sample_reference": "CP10",
+      "report_id": "195194",
+      "verification_url": "https://verify.janoshik.com/tests/195194_4GLKVDNJ3G35",
+      "access": "Official external verification page; sample-reference mapping supplied by LotusBio"
+    },
+    {
+      "source": "Janoshik Analytical",
+      "sample_reference": "KPV10",
+      "report_id": "195190",
+      "verification_url": "https://verify.janoshik.com/tests/195190_QZDF6FLBBT47",
+      "access": "Official external verification page; sample-reference mapping supplied by LotusBio"
+    },
+    {
+      "source": "Janoshik Analytical",
+      "sample_reference": "RT30",
+      "report_id": "213574",
+      "verification_url": "https://verify.janoshik.com/tests/213574_IKJXVNMUWULS",
+      "access": "Official external verification page; sample-reference mapping supplied by LotusBio"
+    },
+    {
+      "source": "Janoshik Analytical",
+      "sample_reference": "BB20",
+      "report_id": "213565",
+      "verification_url": "https://verify.janoshik.com/tests/213565_WSRWPM1QYPJJ",
+      "access": "Official external verification page; sample-reference mapping supplied by LotusBio"
+    },
+    {
+      "source": "Janoshik Analytical",
+      "sample_reference": "TR30",
+      "report_id": "213592",
+      "verification_url": "https://verify.janoshik.com/tests/213592_XEDJN2GP3DU2",
+      "access": "Official external verification page; sample-reference mapping supplied by LotusBio"
+    },
+    {
+      "source": "Janoshik Analytical",
+      "sample_reference": "MS40",
+      "report_id": "213556",
+      "verification_url": "https://verify.janoshik.com/tests/213556_JIN6NWRTNSD5",
+      "access": "Official external verification page; sample-reference mapping supplied by LotusBio"
+    },
+    {
+      "source": "Janoshik Analytical",
+      "sample_reference": "TR60",
+      "report_id": "195158",
+      "verification_url": "https://verify.janoshik.com/tests/195158_VCHYARKUKTJV",
+      "access": "Official external verification page; sample-reference mapping supplied by LotusBio"
+    },
+    {
+      "source": "Janoshik Analytical",
+      "sample_reference": "RT20",
+      "report_id": "195146",
+      "verification_url": "https://verify.janoshik.com/tests/195146_HZYI4DFPFMC6",
+      "access": "Official external verification page; sample-reference mapping supplied by LotusBio"
+    }
+  ],
+  "series_3016_c1_pdf_count": 12,
+  "total_entries": 20,
+  "source_note": "Official Janoshik links supplied by owner; no unverified result values copied into the index."
+}
