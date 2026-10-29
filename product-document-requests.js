@@ -16,6 +16,11 @@
     document.querySelectorAll('[data-batch-coa]').forEach(link => {
       link.href = '/coas/?product=' + encodeURIComponent(selection) + '#request-coa';
     });
+    const sampleSpecification = spec.value.replace(/\s*×\s*\d+\s*vials\b/i, '');
+    const sampleSelection = product.dataset.product + ' · ' + sampleSpecification;
+    document.querySelectorAll('[data-test-sample]').forEach(link => {
+      link.href = '/wholesale/?inquiry=sample-testing&product=' + encodeURIComponent(sampleSelection) + '#inquiry';
+    });
     document.querySelectorAll('[data-selected-quote]').forEach(link => {
       link.href = '/wholesale/?product=' + encodeURIComponent(selection) + '#inquiry';
     });
