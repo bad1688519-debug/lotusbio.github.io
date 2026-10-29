@@ -1,6 +1,25 @@
 document.querySelectorAll('form[data-inquiry]').forEach(form => {
   const params = new URLSearchParams(location.search);
   if (form.elements.product && params.get('product')) form.elements.product.value = params.get('product');
+  const requestType = form.elements.request_type;
+  if (requestType?.tagName === 'SELECT' && form.querySelector('[data-sample-inquiry-note]')) {
+    const sampleType = 'Sample vials for laboratory testing';
+    if (params.get('inquiry') === 'sample-testing') requestType.value = sampleType;
+    const quantity = form.elements.quantity;
+    const regularPlaceholder = quantity?.placeholder || '';
+    const heading = document.querySelector('[data-inquiry-heading]');
+    const submit = form.querySelector('[data-supply-submit]');
+    function updateInquiryType() {
+      const isSample = requestType.value === sampleType;
+      form.querySelector('[data-sample-inquiry-note]').hidden = !isSample;
+      if (quantity) quantity.placeholder = isSample ? 'Desired number of sample vials (subject to confirmation)' : regularPlaceholder;
+      if (heading) heading.textContent = isSample ? 'Ask about sample vials for testing' : 'Discuss your supply requirements';
+      if (submit) submit.textContent = isSample ? 'Send sample-vial inquiry ↗' : 'Send supply inquiry ↗';
+    }
+    requestType.addEventListener('change', updateInquiryType);
+    updateInquiryType();
+  }
+
   // Preserve the raw-material page context without accepting an external source URL.
   const sourcePath = params.get('source') || '';
   if (location.pathname === '/wholesale/' && /^\/raw-materials\/(?:[a-z0-9-]+\/)?$/.test(sourcePath)) {
@@ -15,7 +34,7 @@ document.querySelectorAll('form[data-inquiry]').forEach(form => {
     const data = new FormData(form);
     const labels = {company:'Company / name',email:'Email',country:'Destination country',product:'Product / specification',quantity:'Estimated quantity',frequency:'Purchase frequency',whatsapp:'WhatsApp',requirements:'Requirements',source_page:'Source page',request_type:'Request type',sequence:'Sequence / project summary',purity:'Target purity',modifications:'Modification requirements',timeline:'Preferred timing'};
     const body = Object.entries(labels).filter(([key])=>data.has(key)).map(([key,label])=>label+': '+data.get(key)).join('\n');
-    const subject = data.get('request_type') === 'COA documentation request' ? 'LotusBio COA documentation request' : data.get('request_type') === 'Custom peptide synthesis' ? 'LotusBio custom peptide synthesis inquiry' : 'LotusBio wholesale inquiry';
+    const subject = data.get('request_type') === 'Sample vials for laboratory testing' ? 'LotusBio sample-vial testing inquiry' : data.get('request_type') === 'COA documentation request' ? 'LotusBio COA documentation request' : data.get('request_type') === 'Custom peptide synthesis' ? 'LotusBio custom peptide synthesis inquiry' : 'LotusBio wholesale inquiry';
     let panel = form.querySelector('#email-fallback');
     if (!panel) {panel=document.createElement('div');panel.id='email-fallback';form.append(panel);}
     panel.replaceChildren();
