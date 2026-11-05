@@ -110,8 +110,8 @@ const LOTUSBIO_SITE_LOGO = '/assets/logo.png';
   `;
   document.head.append(style);
   const contacts = [
-    {name:'LotusBio Support', role:'Customer service', phone:'+852 9273 4987', number:'85292734987'},
-    {name:'LotusBio Backup Support', role:'Backup customer service', phone:'+852 6558 1902', number:'85265581902'}
+    {name:'LotusBio Support', role:'Customer service', phone:'+852 6558 1902', number:'85265581902'},
+    {name:'LotusBio Support', role:'Customer service', phone:'+852 9273 4987', number:'85292734987'}
   ];
   function createContacts() {
     const section = document.createElement('section');
