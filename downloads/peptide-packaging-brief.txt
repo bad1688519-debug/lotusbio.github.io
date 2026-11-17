@@ -14,6 +14,10 @@ Usable straight-sided label height (mm):
 Total vial quantity:
 Vials per box / number of boxes:
 Label width x height (if confirmed) / wrap requirements:
+For booklet labels, proposed size when closed (mm) / clearance in tray:
+Requested page count (specify whether covers are included):
+Languages / quantity for each version:
+Cover text / inside text in reading order / page-by-page PDF available:
 Box length x width x height (mm):
 Are the box dimensions internal or external?
 Insert / holder / packing layout requirements:
