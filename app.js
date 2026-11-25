@@ -157,3 +157,7 @@ const LOTUSBIO_SITE_LOGO = '/assets/logo.png';
   }
   document.querySelectorAll('a.contact[href="https://wa.me/85292734987"]').forEach(primary => primary.replaceWith(createContacts()));
 })();
+
+
+// Load optional measurement separately from inquiry functionality.
+(() => { if (!document.getElementById('lotus-analytics-loader')) { const s=document.createElement('script'); s.id='lotus-analytics-loader'; s.src='/analytics.js'; s.async=true; document.head.append(s); } })();
